@@ -40,10 +40,6 @@ code --install-extension cynapse-vscode-adapter.vsix
 
 Adapter 是 Client 的配套组件，不能单独播放课程。
 
-## 版本兼容
-
-更新 Client 后请同步更新 Adapter。从 Adapter `0.2.0` 起，只接受 `*_TEXT` 动作词汇。
-
 ## 许可证
 
 Cynapse 发布产物使用 [MIT 许可证](LICENSE)。
