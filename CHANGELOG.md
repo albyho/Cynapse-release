@@ -7,8 +7,8 @@ together.
 
 First release published from the private Cynapse repository to this repository.
 
-- Client and Adapter versions are now aligned; both artifacts ship in the same
-  GitHub Release.
+- All workspace component versions are now aligned; both artifacts ship in the
+  same GitHub Release.
 - Adapter metadata and documentation now point to this repository.
 - Adapter: end learning when a required adapter disconnects.
 - Adapter: distinguish truncated terminal output from a real mismatch.
