@@ -7,8 +7,8 @@ together.
 
 - Client: unify Next Step/Next Unit decisions, keep Continuous mode across
   human Unit boundaries, and fix final-Challenge advancement.
-- Client: make Unit traversal and selection visible, add a reset busy overlay,
-  and seek narration clips to their authored offsets.
+- Client: make Unit traversal and selection visible, show a busy state while
+  resetting, and seek narration clips to their authored offsets.
 - Client: refine Course Tree scrolling and width, make the breadcrumb
   horizontally scrollable, and keep the empty toolbar height stable.
 - Client: move the challenge panel into its own view, use a collapsible hint
