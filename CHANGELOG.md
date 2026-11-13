@@ -12,7 +12,7 @@ together.
 - Client: refine Course Tree scrolling and width, make the breadcrumb
   horizontally scrollable, and keep the empty toolbar height stable.
 - Client: move the challenge panel into its own view, use a collapsible hint
-  row, and fade captions smoothly on hover.
+  row, and fade captions smoothly.
 - Content: allow explicit human-step skips, reject unverified steps after a
   human boundary, and inspect only structured asset paths.
 - Core/Model: reject linked workspace ancestors, remove the package-root
