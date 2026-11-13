@@ -49,7 +49,7 @@ Rust（中文版）》。
 ## 路线图
 
 - 支持 JupyterLab。
-- 提供课程创作工具 Cynapse Studio。
+- 提供课程创作工具 `Cynapse Studio`。
 
 ## 许可证
 
