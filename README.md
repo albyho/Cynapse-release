@@ -44,6 +44,12 @@ Requirements:
 
 The Adapter is a companion to the Client and cannot play a course on its own.
 
+## Sample courses
+
+Ready-to-open example Course Packages are available in
+[Cynapse Courses](https://github.com/albyho/Cynapse-courses). The repository
+currently includes the Chinese edition of Rust by Example.
+
 ## License
 
 Cynapse releases are distributed under the [MIT License](LICENSE).
