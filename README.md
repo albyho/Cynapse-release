@@ -50,6 +50,11 @@ Ready-to-open example Course Packages are available in
 [Cynapse Courses](https://github.com/albyho/Cynapse-courses). The repository
 currently includes the Chinese edition of Rust by Example.
 
+## Roadmap
+
+- Add JupyterLab support.
+- Ship Cynapse Studio, the course authoring application.
+
 ## License
 
 Cynapse releases are distributed under the [MIT License](LICENSE).

@@ -46,6 +46,11 @@ Adapter 是 Client 的配套组件，不能单独播放课程。
 [Cynapse Courses](https://github.com/albyho/Cynapse-courses)，目前包含《通过例子学
 Rust（中文版）》。
 
+## 路线图
+
+- 支持 JupyterLab。
+- 提供课程创作工具 Cynapse Studio。
+
 ## 许可证
 
 Cynapse 发布产物使用 [MIT 许可证](LICENSE)。
