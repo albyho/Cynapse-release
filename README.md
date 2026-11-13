@@ -49,7 +49,10 @@ The Adapter is a companion to the Client and cannot play a course on its own.
 Ready-to-open example Course Packages are available in
 [Cynapse Courses](https://github.com/albyho/Cynapse-courses). The repository
 currently includes the Chinese edition of
-[*Rust by Example*](https://rustwiki.org/zh-CN/rust-by-example/).
+[*Rust by Example*](https://rustwiki.org/zh-CN/rust-by-example/) and the
+[agent-desktop source analysis](https://github.com/albyho/Cynapse-courses/tree/main/agent-desktop-source-analysis)
+course. The agent-desktop course fetches its pinned official source as a git
+submodule.
 
 ## Roadmap
 
