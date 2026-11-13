@@ -50,6 +50,7 @@ Rust（中文版）》。
 
 - 支持 [`JupyterLab`](https://jupyter.org/)。
 - 提供课程创作工具 `Cynapse Studio`。
+- 增加更多示例课程。
 
 ## 许可证
 

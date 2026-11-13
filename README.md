@@ -54,6 +54,7 @@ currently includes the Chinese edition of Rust by Example.
 
 - Add [`JupyterLab`](https://jupyter.org/) support.
 - Ship `Cynapse Studio`, the course authoring application.
+- Add more sample courses.
 
 ## License
 
