@@ -43,10 +43,13 @@ Adapter 是 Client 的配套组件，不能单独播放课程。
 ## 示例课程
 
 可直接打开的示例 Course Package 位于
-[Cynapse Courses](https://github.com/albyho/Cynapse-courses)，目前包含
-[《通过例子学 Rust（中文版）》](https://rustwiki.org/zh-CN/rust-by-example/) 和
-[agent-desktop 源码分析](https://github.com/albyho/Cynapse-courses/tree/main/agent-desktop-source-analysis)
-课程。agent-desktop 课程通过 git submodule 获取固定版本的官方源码。
+[Cynapse Courses](https://github.com/albyho/Cynapse-courses)：
+
+- [rust-by-example](https://github.com/albyho/Cynapse-courses/tree/main/rust-by-example)
+  （[*Rust by Example*](https://rustwiki.org/zh-CN/rust-by-example/)）
+- [agent-desktop-source-analysis](https://github.com/albyho/Cynapse-courses/tree/main/agent-desktop-source-analysis)
+
+agent-desktop 课程通过 git submodule 获取固定版本的官方源码。
 
 ## 路线图
 
