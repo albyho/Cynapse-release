@@ -43,8 +43,8 @@ Adapter 是 Client 的配套组件，不能单独播放课程。
 ## 示例课程
 
 可直接打开的示例 Course Package 位于
-[Cynapse Courses](https://github.com/albyho/Cynapse-courses)，目前包含《通过例子学
-Rust（中文版）》。
+[Cynapse Courses](https://github.com/albyho/Cynapse-courses)，目前包含
+[《通过例子学 Rust（中文版）》](https://rustwiki.org/zh-CN/rust-by-example/)。
 
 ## 路线图
 
