@@ -52,6 +52,7 @@ Ready-to-open example Course Packages are available in
 - [rust-by-example](https://github.com/albyho/Cynapse-courses/tree/main/rust-by-example)
   ([*Rust by Example*](https://rustwiki.org/zh-CN/rust-by-example/))
 - [agent-desktop-source-analysis](https://github.com/albyho/Cynapse-courses/tree/main/agent-desktop-source-analysis)
+  ([agent-desktop](https://github.com/vercel-labs/agent-desktop/))
 
 The agent-desktop course fetches its pinned official source as a git submodule.
 

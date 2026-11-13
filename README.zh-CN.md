@@ -48,6 +48,7 @@ Adapter 是 Client 的配套组件，不能单独播放课程。
 - [rust-by-example](https://github.com/albyho/Cynapse-courses/tree/main/rust-by-example)
   （[*Rust by Example*](https://rustwiki.org/zh-CN/rust-by-example/)）
 - [agent-desktop-source-analysis](https://github.com/albyho/Cynapse-courses/tree/main/agent-desktop-source-analysis)
+  （[agent-desktop](https://github.com/vercel-labs/agent-desktop/)）
 
 agent-desktop 课程通过 git submodule 获取固定版本的官方源码。
 
