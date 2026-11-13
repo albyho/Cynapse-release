@@ -61,6 +61,7 @@ The agent-desktop course fetches its pinned official source as a git submodule.
 - Add [`JupyterLab`](https://jupyter.org/) support.
 - Ship `Cynapse Studio`, the course authoring application.
 - Add more sample courses.
+- Add AI agent support.
 
 ## License
 
