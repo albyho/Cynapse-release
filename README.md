@@ -52,7 +52,7 @@ currently includes the Chinese edition of Rust by Example.
 
 ## Roadmap
 
-- Add JupyterLab support.
+- Add `JupyterLab` support.
 - Ship `Cynapse Studio`, the course authoring application.
 
 ## License
