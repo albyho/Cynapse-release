@@ -44,11 +44,6 @@ Requirements:
 
 The Adapter is a companion to the Client and cannot play a course on its own.
 
-## Version compatibility
-
-Client and the Adapter share one version and are released together. Starting
-with Adapter `0.2.0`, only the `*_TEXT` action vocabulary is accepted.
-
 ## License
 
 Cynapse releases are distributed under the [MIT License](LICENSE).
