@@ -58,6 +58,7 @@ agent-desktop 课程通过 git submodule 获取固定版本的官方源码。
 - 提供课程创作工具 `Cynapse Studio`。
 - 增加更多示例课程。
 - 支持 AI Agent。
+- 支持 Accessibility Tree。
 
 ## 许可证
 

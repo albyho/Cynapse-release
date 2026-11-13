@@ -62,6 +62,7 @@ The agent-desktop course fetches its pinned official source as a git submodule.
 - Ship `Cynapse Studio`, the course authoring application.
 - Add more sample courses.
 - Add AI agent support.
+- Add Accessibility Tree support.
 
 ## License
 
