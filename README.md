@@ -63,6 +63,7 @@ The agent-desktop course fetches its pinned official source as a git submodule.
 - Add more sample courses.
 - Add AI agent support.
 - Add Accessibility Tree support.
+- Add internationalization and localization.
 
 ## License
 

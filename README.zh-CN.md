@@ -59,6 +59,7 @@ agent-desktop 课程通过 git submodule 获取固定版本的官方源码。
 - 增加更多示例课程。
 - 支持 AI Agent。
 - 支持 Accessibility Tree。
+- 支持国际化和本地化。
 
 ## 许可证
 
