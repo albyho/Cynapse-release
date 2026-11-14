@@ -21,7 +21,7 @@ together.
 - Docs: close the audit follow-ups, record the JupyterLab Adapter design, and
   document course publishing plus the release and course publishing skills.
 
-Cynapse commit: `104468a6`
+Cynapse commit: `40113a3f`
 
 ### Downloads
 
