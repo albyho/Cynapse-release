@@ -3,6 +3,31 @@
 Cynapse Client and the VS Code Adapter share one version and are published
 together.
 
+## 0.2.4 — 2026-11-15
+
+- Client: version settings, preserve the caption background color, keep one
+  course selection state, record course-switch interruption before open and
+  close, use the next Unit's target source for prompts, and join warning labels
+  with the localized separator.
+- Client and Adapter: drop rare-failure recovery that warnings or defaults now
+  cover.
+- Courses and narration: cache shared audio assets during package load, clear
+  removed narration track phases during assembly, reject symlinks and junctions
+  while publishing, bundle resource git worktrees, and pin resource checkouts in
+  `resources.lock.json`.
+- Adapter: make reset and text-edit recovery replay-safe.
+- Build: centralize the release version in the Cargo workspace and verify all
+  declarations plus the tag in CI.
+- Docs: close the audit follow-ups, record the JupyterLab Adapter design, and
+  document course publishing plus the release and course publishing skills.
+
+Cynapse commit: `104468a6`
+
+### Downloads
+
+- `cynapse-client.exe`
+- `cynapse-vscode-adapter.vsix`
+
 ## 0.2.3 — 2026-11-14
 
 - Client: add English and Simplified Chinese UI languages. Follow the Windows
