@@ -12,18 +12,23 @@ Cynapse（Code + Synapse）是一个本地优先的交互式软件教程与工�
 
 | 组件 | 下载 |
 | --- | --- |
-| Cynapse Client（Windows x64） | [`cynapse-client.exe`](https://github.com/albyho/Cynapse-release/releases/latest/download/cynapse-client.exe) |
+| Cynapse Client + JupyterLab Adapter（Windows x64） | [`cynapse-<version>-windows-x64.zip`](https://github.com/albyho/Cynapse-release/releases/latest) |
 | Cynapse VS Code Adapter | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=tubumu.cynapse-vscode-adapter) · [`.vsix`](https://github.com/albyho/Cynapse-release/releases/latest/download/cynapse-vscode-adapter.vsix) |
 
 所有版本也可在[发布页](https://github.com/albyho/Cynapse-release/releases)查看；
 每个版本的变化见[版本记录](CHANGELOG.md)。
 
-### Cynapse Client
+### Cynapse Client 与 JupyterLab Adapter
 
-1. 下载 `cynapse-client.exe`。
-2. 直接运行。当前二进制未签名，Windows SmartScreen 可能提示风险；请仅在确认文件
-   来自本仓库 Releases 时继续。
-3. Client 目前以 Windows 为主要支持平台，其他平台仍在完善中。
+1. 从最新 Release 下载带版本号的 `cynapse-<version>-windows-x64.zip`。
+2. 解压，并让 `cynapse-client.exe` 与 JupyterLab Adapter wheel 保持在同一个目录。
+   不要直接在 zip 内运行 exe。
+3. 运行 `cynapse-client.exe`。当前二进制未签名，Windows SmartScreen 可能提示风险；
+   请仅在确认文件来自本仓库 Releases 时继续。
+4. Client 目前以 Windows 为主要支持平台，其他平台仍在完善中。
+
+zip 根目录包含 `cynapse_jupyterlab_extension-<version>-py3-none-any.whl`。Client 会在
+JupyterLab 课程中自动使用它，不需要单独安装 Adapter。
 
 ### Cynapse VS Code Adapter
 
@@ -49,12 +54,12 @@ Adapter 是 Client 的配套组件，不能单独播放课程。
   （[*Rust by Example*](https://rustwiki.org/zh-CN/rust-by-example/)）
 - [agent-desktop-source-analysis](https://github.com/albyho/Cynapse-courses/tree/main/agent-desktop-source-analysis)
   （[agent-desktop](https://github.com/vercel-labs/agent-desktop/)）
+- [signal-processing-roadmap-zh-cn](https://github.com/albyho/Cynapse-courses/tree/main/signal-processing-roadmap-zh-cn)
 
 agent-desktop 课程通过 git submodule 获取固定版本的官方源码。
 
 ## 路线图
 
-- 支持 [`JupyterLab`](https://jupyter.org/)。
 - 提供课程创作工具 `Cynapse Studio`。
 - 增加更多示例课程。
 - 支持 AI Agent。

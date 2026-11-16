@@ -1,7 +1,8 @@
 # Release Log
 
-Cynapse Client and the VS Code Adapter share one version and are published
-together.
+Cynapse Client, the VS Code Adapter, and the JupyterLab Adapter share one
+version. New releases package the Client and JupyterLab Adapter in one versioned
+Windows zip and keep the VS Code Adapter as a separate `.vsix`.
 
 ## 0.2.4 — 2026-11-15
 

@@ -14,19 +14,27 @@ private; no source code is published here.
 
 | Component | Download |
 | --- | --- |
-| Cynapse Client (Windows x64) | [`cynapse-client.exe`](https://github.com/albyho/Cynapse-release/releases/latest/download/cynapse-client.exe) |
+| Cynapse Client + JupyterLab Adapter (Windows x64) | [`cynapse-<version>-windows-x64.zip`](https://github.com/albyho/Cynapse-release/releases/latest) |
 | Cynapse VS Code Adapter | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=tubumu.cynapse-vscode-adapter) · [`.vsix`](https://github.com/albyho/Cynapse-release/releases/latest/download/cynapse-vscode-adapter.vsix) |
 
 All versions are also available from the
 [releases page](https://github.com/albyho/Cynapse-release/releases). See the
 [release log](CHANGELOG.md) for changes in each version.
 
-### Cynapse Client
+### Cynapse Client and JupyterLab Adapter
 
-1. Download `cynapse-client.exe`.
-2. Run it. The binary is currently unsigned, so Windows SmartScreen may show a
-   warning; only bypass it if the file came from this repository's Releases.
-3. The Client is Windows-first. Other platforms are still being completed.
+1. Download the versioned `cynapse-<version>-windows-x64.zip` from the latest
+   release.
+2. Extract it and keep `cynapse-client.exe` and the JupyterLab Adapter wheel in
+   the same directory. Do not run the executable from inside the zip.
+3. Run `cynapse-client.exe`. The binary is currently unsigned, so Windows
+   SmartScreen may show a warning; only bypass it if the file came from this
+   repository's Releases.
+4. The Client is Windows-first. Other platforms are still being completed.
+
+The zip includes `cynapse_jupyterlab_extension-<version>-py3-none-any.whl`
+beside the executable. The Client uses it automatically for JupyterLab courses;
+no separate Adapter installation is required.
 
 ### Cynapse VS Code Adapter
 
@@ -53,12 +61,12 @@ Ready-to-open example Course Packages are available in
   ([*Rust by Example*](https://rustwiki.org/zh-CN/rust-by-example/))
 - [agent-desktop-source-analysis](https://github.com/albyho/Cynapse-courses/tree/main/agent-desktop-source-analysis)
   ([agent-desktop](https://github.com/vercel-labs/agent-desktop/))
+- [signal-processing-roadmap-zh-cn](https://github.com/albyho/Cynapse-courses/tree/main/signal-processing-roadmap-zh-cn)
 
 The agent-desktop course fetches its pinned official source as a git submodule.
 
 ## Roadmap
 
-- Add [`JupyterLab`](https://jupyter.org/) support.
 - Ship `Cynapse Studio`, the course authoring application.
 - Add more sample courses.
 - Add AI agent support.
