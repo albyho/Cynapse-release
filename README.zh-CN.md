@@ -13,7 +13,7 @@ Cynapse（Code + Synapse）是一个本地优先的交互式软件教程与工�
 | 组件 | 下载 |
 | --- | --- |
 | Cynapse Client + JupyterLab Adapter（Windows x64） | [`cynapse-<version>-windows-x64.zip`](https://github.com/albyho/Cynapse-release/releases/latest) |
-| Cynapse VS Code Adapter | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=tubumu.cynapse-vscode-adapter) · [`.vsix`](https://github.com/albyho/Cynapse-release/releases/latest/download/cynapse-vscode-adapter.vsix) |
+| Cynapse VS Code Adapter | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=tubumu.cynapse-vscode-adapter) |
 
 所有版本也可在[发布页](https://github.com/albyho/Cynapse-release/releases)查看；
 每个版本的变化见[版本记录](CHANGELOG.md)。
@@ -32,11 +32,7 @@ JupyterLab 课程中自动使用它，不需要单独安装 Adapter。
 
 ### Cynapse VS Code Adapter
 
-从 VS Code Marketplace 安装 **Cynapse VS Code Adapter**，或安装下载的 `.vsix`：
-
-```powershell
-code --install-extension cynapse-vscode-adapter.vsix
-```
+从 VS Code Marketplace 安装 **Cynapse VS Code Adapter**。
 
 环境要求：
 

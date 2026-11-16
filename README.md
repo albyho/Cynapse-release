@@ -15,7 +15,7 @@ private; no source code is published here.
 | Component | Download |
 | --- | --- |
 | Cynapse Client + JupyterLab Adapter (Windows x64) | [`cynapse-<version>-windows-x64.zip`](https://github.com/albyho/Cynapse-release/releases/latest) |
-| Cynapse VS Code Adapter | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=tubumu.cynapse-vscode-adapter) · [`.vsix`](https://github.com/albyho/Cynapse-release/releases/latest/download/cynapse-vscode-adapter.vsix) |
+| Cynapse VS Code Adapter | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=tubumu.cynapse-vscode-adapter) |
 
 All versions are also available from the
 [releases page](https://github.com/albyho/Cynapse-release/releases). See the
@@ -38,12 +38,7 @@ no separate Adapter installation is required.
 
 ### Cynapse VS Code Adapter
 
-Install **Cynapse VS Code Adapter** from the Marketplace, or install a
-downloaded `.vsix`:
-
-```powershell
-code --install-extension cynapse-vscode-adapter.vsix
-```
+Install **Cynapse VS Code Adapter** from the VS Code Marketplace.
 
 Requirements:
 
