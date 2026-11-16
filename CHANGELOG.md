@@ -4,6 +4,32 @@ Cynapse Client, the VS Code Adapter, and the JupyterLab Adapter share one
 version. New releases package the Client and JupyterLab Adapter in one versioned
 Windows zip and keep the VS Code Adapter as a separate `.vsix`.
 
+## 0.3.0 — 2026-11-16
+
+- Client: add JupyterLab course support, including Course Environment
+  provisioning from `pyproject.toml` / `pylock.toml`, managed JupyterLab server
+  lifecycle, visible Notebook/Cell/Kernel actions, and cancellation and restart
+  handling.
+- JupyterLab Adapter: first release of the prebuilt extension, with cell text
+  editing, Cell range execution, output reveal, scroll alignment, and a
+  long-running execution notice.
+- Protocol: standardize action names to PascalCase and prefix JupyterLab
+  actions; the Client and both adapters ship together.
+- Courses: add the Chinese signal-processing roadmap course with the silent
+  welcome demo, introduction, and Week 1 lessons, narration, and exercises.
+- Build and release: publish the Client and JupyterLab Adapter together in
+  `cynapse-0.3.0-windows-x64.zip`; rebuild stale development wheels; include
+  `pyproject.toml` and `pylock.toml` in published JupyterLab courses.
+- Docs: add JupyterLab design, course-authoring, and release workflow
+  documentation, and update the project skills.
+
+Cynapse commit: `2fa77d15`
+
+### Downloads
+
+- `cynapse-0.3.0-windows-x64.zip`
+- `cynapse-vscode-adapter.vsix`
+
 ## 0.2.4 — 2026-11-15
 
 - Client: version settings, preserve the caption background color, keep one
