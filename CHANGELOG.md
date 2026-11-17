@@ -4,6 +4,32 @@ Cynapse Client, the VS Code Adapter, and the JupyterLab Adapter share one
 version. New releases package the Client and JupyterLab Adapter in one versioned
 Windows zip and publish the VS Code Adapter through the VS Code Marketplace.
 
+## 0.4.0 — 2026-11-18
+
+- Client: manage the JupyterLab host supply and provisioning lifecycle, preflight
+  Course Environments before workspace preparation, and keep local-only Units
+  running when the Adapter disconnects.
+- Client: harden the Protocol Server across Adapter changes, reset disconnects,
+  and Action deadlines, and complete playback lifecycle logging.
+- Client: compact the Challenge panel, split the sidebar height with it, add
+  selectable hint and result text, add copy selection / copy all context menu
+  actions, and support Ctrl+C / Command+C for the current selection.
+- Courses: validate packages strictly in one read, report every package
+  diagnostic from `verify:content`, and require captions on every narration
+  clip. **Breaking:** narration clips without captions are now rejected.
+- Adapters: share the VS Code chunked-edit transaction, preserve document
+  encoding when saving and decoding check captures, allow environment-check
+  terminals at the Course Workspace root, and bound JupyterLab CellRun ACK
+  payloads.
+- Docs and tooling: record the 2026-11-17 repository audit and architecture
+  review, add ADR-0068, and move speech-edit tooling under `tools/`.
+
+Cynapse commit: `4e9eaa45`
+
+### Downloads
+
+- `cynapse-0.4.0-windows-x64.zip`
+
 ## 0.3.0 — 2026-11-16
 
 - Client: add JupyterLab course support, including Course Environment
