@@ -51,6 +51,7 @@ Adapter 是 Client 的配套组件，不能单独播放课程。
 - [agent-desktop-source-analysis](https://github.com/albyho/Cynapse-courses/tree/main/agent-desktop-source-analysis)
   （[agent-desktop](https://github.com/vercel-labs/agent-desktop/)）
 - [signal-processing-roadmap-zh-cn](https://github.com/albyho/Cynapse-courses/tree/main/signal-processing-roadmap-zh-cn)
+  （[signal-processing-roadmap](https://github.com/minthanthtoo/signal-processing-roadmap/)）
 
 agent-desktop 课程通过 git submodule 获取固定版本的官方源码。
 

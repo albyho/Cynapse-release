@@ -57,6 +57,7 @@ Ready-to-open example Course Packages are available in
 - [agent-desktop-source-analysis](https://github.com/albyho/Cynapse-courses/tree/main/agent-desktop-source-analysis)
   ([agent-desktop](https://github.com/vercel-labs/agent-desktop/))
 - [signal-processing-roadmap-zh-cn](https://github.com/albyho/Cynapse-courses/tree/main/signal-processing-roadmap-zh-cn)
+  ([signal-processing-roadmap](https://github.com/minthanthtoo/signal-processing-roadmap/))
 
 The agent-desktop course fetches its pinned official source as a git submodule.
 
