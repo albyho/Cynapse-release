@@ -4,6 +4,24 @@ Cynapse Client, the VS Code Adapter, and the JupyterLab Adapter share one
 version. New releases package the Client and JupyterLab Adapter in one versioned
 Windows zip and publish the VS Code Adapter through the VS Code Marketplace.
 
+## 0.6.0 — 2026-11-19
+
+- Client: keep the status bar text on one line; it now pans horizontally with
+  no scrollbar instead of wrapping and growing the bar.
+- Client: warnings carry a stable identity, so switching languages re-renders
+  them in the new locale instead of keeping the old wording.
+- Courses: parse caption markup in one pass, which fixes a stray `<` before a
+  markup tag swallowing the following emphasis.
+- Courses: add the English edition of the signal processing roadmap.
+- Build and docs: move the scenario harness into its own crate, drop the
+  VS Code forwarding shims, and add the local release skill.
+
+Cynapse commit: `e386f42b`
+
+### Downloads
+
+- `cynapse-0.6.0-windows-x64.zip`
+
 ## 0.5.0 — 2026-11-18
 
 - Client: add a Sound settings page with a 0–100 narration volume slider,
