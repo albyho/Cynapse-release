@@ -4,6 +4,29 @@ Cynapse Client, the VS Code Adapter, and the JupyterLab Adapter share one
 version. New releases package the Client and JupyterLab Adapter in one versioned
 Windows zip and publish the VS Code Adapter through the VS Code Marketplace.
 
+## 0.5.0 — 2026-11-18
+
+- Client: add a Sound settings page with a 0–100 narration volume slider,
+  speaker icon, and numeric readout. Volume persists in ClientSettings and
+  applies live; volume 0 keeps narration playing silently.
+- Client Core: add the persisted narration volume setting and the runtime
+  caption-edge flip helper.
+- Client: hovering the caption flips it to the opposite edge for the rest of
+  the run. Settings stays the default and the flip never writes back; the hover
+  fade is removed, and cursor polling stops while the caption is hidden.
+- Client: render warnings in a readable card with aligned icon and text.
+- Adapters: share the check and connection runtime and extract the TypeScript
+  kit used by the VS Code Adapter.
+- Build and docs: skip stable gates for docs-only changes, record the TurboWarp
+  Desktop adapter research and the adapter common layer design, and focus the
+  VS Code Adapter READMEs on users.
+
+Cynapse commit: `014e8fef`
+
+### Downloads
+
+- `cynapse-0.5.0-windows-x64.zip`
+
 ## 0.4.0 — 2026-11-18
 
 - Client: manage the JupyterLab host supply and provisioning lifecycle, preflight
