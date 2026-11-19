@@ -4,6 +4,30 @@ Cynapse Client, the VS Code Adapter, and the JupyterLab Adapter share one
 version. New releases package the Client and JupyterLab Adapter in one versioned
 Windows zip and publish the VS Code Adapter through the VS Code Marketplace.
 
+## 0.6.1 — 2026-11-20
+
+- Client: narration phases stay owned by the Unit that started them; playback
+  preparation errors and course-switch restart failures are reported instead of
+  leaving the session waiting; unit progress is scanned once per render; the main
+  window is topmost only while a human Step waits.
+- Client Core: pending requests get individual ACK deadlines; discovery cleanup
+  is token-aware; Play is excluded from one-off requests; a failed next-Unit
+  plan stops learning cleanly.
+- Adapter: cancelled requests are bounded; in-flight actions and request IDs are
+  deduplicated; VS Code and JupyterLab use the unified text-edit anchors
+  (Protocol v3).
+- Courses: the Rust and signal-processing packages move to PascalCase actions
+  and the unified text-edit anchors.
+- Docs and tooling: audit status checks, review gate scope, and the script
+  reference are tightened; content-verifier cleanup and `--since` handling are
+  hardened; Python test tooling is consolidated.
+
+Cynapse commit: `54a1ec27`
+
+### Downloads
+
+- `cynapse-0.6.1-windows-x64.zip`
+
 ## 0.6.0 — 2026-11-19
 
 - Client: keep the status bar text on one line; it now pans horizontally with
