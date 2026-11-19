@@ -4,6 +4,26 @@ Cynapse Client, the VS Code Adapter, and the JupyterLab Adapter share one
 version. New releases package the Client and JupyterLab Adapter in one versioned
 Windows zip and publish the VS Code Adapter through the VS Code Marketplace.
 
+## 0.7.0 — 2026-11-20
+
+- Client: the main window stays above other windows while a manual Next/Retry,
+  next-Unit prompt, passive playback interruption, error, or adapter wait needs
+  the learner; a hidden or minimized window is restored without focus, once per
+  new wait. Stop now clears Challenge/human waits and topmost immediately.
+  Continue replays from the Step's first Action but skips Wait Actions already
+  reached; human/Challenge boundaries before the saved Action are not re-prompted.
+- Client Core: persist the current Step's Action index at Stop, replay from the
+  Step start, skip Waits up to that index, and remove the final-Wait Stop special
+  case so Stop always pauses.
+- Docs: update the interaction spec and course authoring guide for the replay
+  and Wait-skip rules.
+
+Cynapse commit: `74115045`
+
+### Downloads
+
+- `cynapse-0.7.0-windows-x64.zip`
+
 ## 0.6.1 — 2026-11-20
 
 - Client: narration phases stay owned by the Unit that started them; playback
