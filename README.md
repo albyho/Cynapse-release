@@ -54,10 +54,10 @@ Ready-to-open example Course Packages are available in
 
 | Course | Version | Package | Source |
 | --- | --- | --- | --- |
-| 通过例子学 Rust（中文版） | `0.20.17` | [`rust-by-example-zh-cn/`](https://github.com/albyho/Cynapse-courses/tree/main/rust-by-example-zh-cn/) | [Rust by Example（中文版）](https://github.com/rust-lang-cn/rust-by-example-cn) |
-| agent-desktop 源码分析 | `0.39.0` | [`agent-desktop-source-analysis-zh-cn/`](https://github.com/albyho/Cynapse-courses/tree/main/agent-desktop-source-analysis-zh-cn/) | [agent-desktop](https://github.com/vercel-labs/agent-desktop) |
-| 信号处理路线图（中文版） | `0.2.4` | [`signal-processing-roadmap-zh-cn/`](https://github.com/albyho/Cynapse-courses/tree/main/signal-processing-roadmap-zh-cn/) | [Signal processing roadmap](https://github.com/minthanthtoo/signal-processing-roadmap) |
-| 信号处理路线图（英文版） | `0.2.4` | [`signal-processing-roadmap/`](https://github.com/albyho/Cynapse-courses/tree/main/signal-processing-roadmap/) | [Signal processing roadmap](https://github.com/minthanthtoo/signal-processing-roadmap) |
+| Rust by Example (Chinese) | `0.20.17` | [`rust-by-example-zh-cn/`](https://github.com/albyho/Cynapse-courses/tree/main/rust-by-example-zh-cn/) | [Rust by Example (Chinese)](https://github.com/rust-lang-cn/rust-by-example-cn) |
+| agent-desktop Source Analysis | `0.39.0` | [`agent-desktop-source-analysis-zh-cn/`](https://github.com/albyho/Cynapse-courses/tree/main/agent-desktop-source-analysis-zh-cn/) | [agent-desktop](https://github.com/vercel-labs/agent-desktop) |
+| Signal Processing Roadmap (Chinese) | `0.2.4` | [`signal-processing-roadmap-zh-cn/`](https://github.com/albyho/Cynapse-courses/tree/main/signal-processing-roadmap-zh-cn/) | [Signal processing roadmap](https://github.com/minthanthtoo/signal-processing-roadmap) |
+| Signal Processing Roadmap (English) | `0.2.4` | [`signal-processing-roadmap/`](https://github.com/albyho/Cynapse-courses/tree/main/signal-processing-roadmap/) | [Signal processing roadmap](https://github.com/minthanthtoo/signal-processing-roadmap) |
 
 The agent-desktop course fetches its pinned official source as a git submodule.
 
