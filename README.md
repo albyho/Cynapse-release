@@ -52,7 +52,7 @@ The Adapter is a companion to the Client and cannot play a course on its own.
 Ready-to-open example Course Packages are available in
 [Cynapse Courses](https://github.com/albyho/Cynapse-courses):
 
-| Course | Version | Package | Source |
+| Course | Version | Package | Based on |
 | --- | --- | --- | --- |
 | Rust by Example (Chinese) | `0.20.21` | [zip](https://github.com/albyho/Cynapse-courses/releases/tag/rust-by-example-zh-cn-0.20.21) | [Rust by Example (Chinese)](https://github.com/rust-lang-cn/rust-by-example-cn) |
 | agent-desktop Source Analysis (Chinese) | `0.39.0` | [zip](https://github.com/albyho/Cynapse-courses/releases/tag/agent-desktop-source-analysis-zh-cn-0.39.0) | [agent-desktop](https://github.com/vercel-labs/agent-desktop) |

@@ -46,7 +46,7 @@ Adapter 是 Client 的配套组件，不能单独播放课程。
 可直接打开的示例 Course Package 位于
 [Cynapse Courses](https://github.com/albyho/Cynapse-courses)：
 
-| 课程 | 版本 | 课程包 | 来源 |
+| 课程 | 版本 | 课程包 | 改编自 |
 | --- | --- | --- | --- |
 | 通过例子学 Rust（中文版） | `0.20.21` | [zip](https://github.com/albyho/Cynapse-courses/releases/tag/rust-by-example-zh-cn-0.20.21) | [Rust by Example（中文版）](https://github.com/rust-lang-cn/rust-by-example-cn) |
 | agent-desktop 源码分析（中文版） | `0.39.0` | [zip](https://github.com/albyho/Cynapse-courses/releases/tag/agent-desktop-source-analysis-zh-cn-0.39.0) | [agent-desktop](https://github.com/vercel-labs/agent-desktop) |
