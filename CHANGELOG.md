@@ -27,7 +27,7 @@ Cynapse commit: `2eadaa89`
 
 ### Downloads
 
-- `cynapse-0.8.0-windows-x64.zip`
+- [`cynapse-0.8.0-windows-x64.zip`](https://github.com/albyho/Cynapse-release/releases/tag/v0.8.0)
 
 ## 0.7.0 — 2026-11-20
 
@@ -47,7 +47,7 @@ Cynapse commit: `74115045`
 
 ### Downloads
 
-- `cynapse-0.7.0-windows-x64.zip`
+- [`cynapse-0.7.0-windows-x64.zip`](https://github.com/albyho/Cynapse-release/releases/tag/v0.7.0)
 
 ## 0.6.1 — 2026-11-20
 
@@ -71,7 +71,7 @@ Cynapse commit: `54a1ec27`
 
 ### Downloads
 
-- `cynapse-0.6.1-windows-x64.zip`
+- [`cynapse-0.6.1-windows-x64.zip`](https://github.com/albyho/Cynapse-release/releases/tag/v0.6.1)
 
 ## 0.6.0 — 2026-11-19
 
@@ -89,7 +89,7 @@ Cynapse commit: `e386f42b`
 
 ### Downloads
 
-- `cynapse-0.6.0-windows-x64.zip`
+- [`cynapse-0.6.0-windows-x64.zip`](https://github.com/albyho/Cynapse-release/releases/tag/v0.6.0)
 
 ## 0.5.0 — 2026-11-18
 
@@ -112,7 +112,7 @@ Cynapse commit: `014e8fef`
 
 ### Downloads
 
-- `cynapse-0.5.0-windows-x64.zip`
+- [`cynapse-0.5.0-windows-x64.zip`](https://github.com/albyho/Cynapse-release/releases/tag/v0.5.0)
 
 ## 0.4.0 — 2026-11-18
 
@@ -138,7 +138,7 @@ Cynapse commit: `4e9eaa45`
 
 ### Downloads
 
-- `cynapse-0.4.0-windows-x64.zip`
+- [`cynapse-0.4.0-windows-x64.zip`](https://github.com/albyho/Cynapse-release/releases/tag/v0.4.0)
 
 ## 0.3.0 — 2026-11-16
 
@@ -163,7 +163,7 @@ Cynapse commit: `2fa77d15`
 
 ### Downloads
 
-- `cynapse-0.3.0-windows-x64.zip`
+- [`cynapse-0.3.0-windows-x64.zip`](https://github.com/albyho/Cynapse-release/releases/tag/v0.3.0)
 
 ## 0.2.4 — 2026-11-15
 
@@ -187,8 +187,8 @@ Cynapse commit: `40113a3f`
 
 ### Downloads
 
-- `cynapse-client.exe`
-- `cynapse-vscode-adapter.vsix`
+- [`cynapse-client.exe`](https://github.com/albyho/Cynapse-release/releases/tag/v0.2.4)
+- [`cynapse-vscode-adapter.vsix`](https://github.com/albyho/Cynapse-release/releases/tag/v0.2.4)
 
 ## 0.2.3 — 2026-11-14
 
@@ -214,8 +214,8 @@ Cynapse commit: `5fd04bc1`
 
 ### Downloads
 
-- `cynapse-client.exe`
-- `cynapse-vscode-adapter.vsix`
+- [`cynapse-client.exe`](https://github.com/albyho/Cynapse-release/releases/tag/v0.2.3)
+- [`cynapse-vscode-adapter.vsix`](https://github.com/albyho/Cynapse-release/releases/tag/v0.2.3)
 
 ## 0.2.2 — 2026-11-13
 
@@ -236,8 +236,8 @@ Cynapse commit: `5fd04bc1`
 
 ### Downloads
 
-- `cynapse-client.exe`
-- `cynapse-vscode-adapter.vsix`
+- [`cynapse-client.exe`](https://github.com/albyho/Cynapse-release/releases/tag/v0.2.2)
+- [`cynapse-vscode-adapter.vsix`](https://github.com/albyho/Cynapse-release/releases/tag/v0.2.2)
 
 ## 0.2.1 — 2026-11-13
 
