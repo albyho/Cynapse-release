@@ -54,12 +54,14 @@ Ready-to-open example Course Packages are available in
 
 | Course | Version | Package | Source |
 | --- | --- | --- | --- |
-| Rust by Example (Chinese) | `0.20.17` | [`rust-by-example-zh-cn/`](https://github.com/albyho/Cynapse-courses/tree/main/rust-by-example-zh-cn/) | [Rust by Example (Chinese)](https://github.com/rust-lang-cn/rust-by-example-cn) |
-| agent-desktop Source Analysis (Chinese) | `0.39.0` | [`agent-desktop-source-analysis-zh-cn/`](https://github.com/albyho/Cynapse-courses/tree/main/agent-desktop-source-analysis-zh-cn/) | [agent-desktop](https://github.com/vercel-labs/agent-desktop) |
-| Signal Processing Roadmap (Chinese) | `0.2.4` | [`signal-processing-roadmap-zh-cn/`](https://github.com/albyho/Cynapse-courses/tree/main/signal-processing-roadmap-zh-cn/) | [Signal processing roadmap](https://github.com/minthanthtoo/signal-processing-roadmap) |
-| Signal Processing Roadmap (English) | `0.2.4` | [`signal-processing-roadmap/`](https://github.com/albyho/Cynapse-courses/tree/main/signal-processing-roadmap/) | [Signal processing roadmap](https://github.com/minthanthtoo/signal-processing-roadmap) |
+| Rust by Example (Chinese) | `0.20.21` | [zip](https://github.com/albyho/Cynapse-courses/releases/tag/rust-by-example-zh-cn-0.20.21) | [Rust by Example (Chinese)](https://github.com/rust-lang-cn/rust-by-example-cn) |
+| agent-desktop Source Analysis (Chinese) | `0.39.0` | [zip](https://github.com/albyho/Cynapse-courses/releases/tag/agent-desktop-source-analysis-zh-cn-0.39.0) | [agent-desktop](https://github.com/vercel-labs/agent-desktop) |
+| Signal Processing Roadmap (Chinese) | `0.2.4` | [zip](https://github.com/albyho/Cynapse-courses/releases/tag/signal-processing-roadmap-zh-cn-0.2.4) | [Signal processing roadmap](https://github.com/minthanthtoo/signal-processing-roadmap) |
+| Signal Processing Roadmap (English) | `0.2.4` | [zip](https://github.com/albyho/Cynapse-courses/releases/tag/signal-processing-roadmap-0.2.4) | [Signal processing roadmap](https://github.com/minthanthtoo/signal-processing-roadmap) |
 
-The agent-desktop course fetches its pinned official source as a git submodule.
+Download a course zip, extract it to get a `<course-name>/` directory, and open
+that directory in Cynapse Client. The agent-desktop zip already includes its
+pinned official source; no git submodule setup is needed.
 
 ## Roadmap
 
