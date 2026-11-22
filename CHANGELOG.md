@@ -4,6 +4,31 @@ Cynapse Client, the VS Code Adapter, and the JupyterLab Adapter share one
 version. New releases package the Client and JupyterLab Adapter in one versioned
 Windows zip and publish the VS Code Adapter through the VS Code Marketplace.
 
+## 0.8.0 — 2026-11-22
+
+- Client: the course tree is denser and clearer — compact rows with tuned
+  height, play/pause icons for Unit selection, Unit checkboxes with full
+  breadcrumb paths, no progress dots or row highlight, and Reset as the only
+  action on completed Units. Controls stay in sync with active playback, a
+  stopped session's playback is no longer read as a wait, and the tray icon
+  uses gpui-tray.
+- Client Core: locale catalogs are split by owner.
+- Courses: authored steps survive `build_course.py`; narration padding is
+  trimmed with a compiler-error step added, and the Rust package gets denser
+  narration with synthesized TTS.
+- Build and docs: MSIX packaging for Microsoft Store (identity from
+  `packaging/msix/identity.json`, `runFullTrust`), refreshed app icons across
+  client and VS Code Marketplace, the JupyterLab Adapter is in spec scope,
+  the interaction rules follow the new course tree, and Markdown checks move
+  to rumdl. Release and course-publish flows are documented.
+- Adapters: scratch probes renamed to `research`.
+
+Cynapse commit: `2eadaa89`
+
+### Downloads
+
+- `cynapse-0.8.0-windows-x64.zip`
+
 ## 0.7.0 — 2026-11-20
 
 - Client: the main window stays above other windows while a manual Next/Retry,
