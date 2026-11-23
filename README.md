@@ -2,13 +2,17 @@
 
 English | [简体中文](README.zh-CN.md)
 
+> **This repository is archived.** New releases are published at
+> [albyho/Cynapse](https://github.com/albyho/Cynapse/releases). The assets below
+> stay downloadable.
+
 Cynapse (Code + Synapse) is a local-first interactive software tutorial and
 workflow platform. Courses drive an interactive UI and a recoverable step state
 machine while you work in the real application, instead of watching a
 recording or using a simulator. Windows is the first supported platform.
 
-This repository distributes Cynapse release artifacts. The source repository is
-private; no source code is published here.
+Cynapse source code and new releases live at
+[albyho/Cynapse](https://github.com/albyho/Cynapse).
 
 ## Downloads
 

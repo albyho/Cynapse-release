@@ -2,11 +2,15 @@
 
 [English](README.md) | 简体中文
 
+> **本仓库已归档。** 新版本发布在
+> [albyho/Cynapse](https://github.com/albyho/Cynapse/releases)，下面的历史资产仍可
+> 下载。
+
 Cynapse（Code + Synapse）是一个本地优先的交互式软件教程与工作流平台。课程在真实
 软件中驱动交互式 UI 与可恢复的分步状态机，让你边做边学，而不是看录屏，也不是在
 模拟器上。首个支持平台是 Windows。
 
-本仓库只分发 Cynapse 的发布产物。源码仓库为私有仓库，这里不发布源代码。
+Cynapse 的源码与后续版本在 [albyho/Cynapse](https://github.com/albyho/Cynapse)。
 
 ## 下载
 
