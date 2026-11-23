@@ -4,22 +4,6 @@ Cynapse Client, the VS Code Adapter, and the JupyterLab Adapter share one
 version. New releases package the Client and JupyterLab Adapter in one versioned
 Windows zip and publish the VS Code Adapter through the VS Code Marketplace.
 
-## 0.9.0 — 2026-11-23
-
-- Client: import course packages from URLs, choose a course storage folder,
-  and clear recently opened courses. URL import dialogs restore focus, and
-  overwrite approval applies only to the selected destination. Caption
-  backgrounds default to 80% opacity.
-- Client Core and course packages: reject overlapping publication directories.
-- Docs: record the TurboWarp adapter decision and findings on animation and
-  deletion.
-
-Cynapse commit: `32d96ee2`
-
-### Downloads
-
-- [`cynapse-0.9.0-windows-x64.zip`](https://github.com/albyho/Cynapse-release/releases/tag/v0.9.0)
-
 ## 0.8.0 — 2026-11-22
 
 - Client: the course tree is denser and clearer — compact rows with tuned
